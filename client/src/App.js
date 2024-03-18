@@ -17,6 +17,7 @@ function App() {
   const getTopScorers = async () => {
     try {
       const response = await axios.get(`${domain.domain}/top-scorers`);
+      console.log(response)
       setLeaderboard(response.data);
     } catch (error) {
       console.error('Error fetching top scorers:', error);
