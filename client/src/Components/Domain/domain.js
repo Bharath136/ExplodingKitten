@@ -1,5 +1,5 @@
 const domain = {
-    domain: 'http://localhost:9000'
+    domain: 'https://explodingkitten-1.onrender.com'
 }
 
 export default domain   
